@@ -1,0 +1,588 @@
+@import url("./zeroing.css");
+
+body {
+   background-color: #e5e5e5;
+   font-family: "Roboto", sans-serif;
+}
+
+.nav {
+   display: flex;
+   justify-content: center;
+   padding: 17px 0 16px 0;
+}
+
+.nav > li {
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+.nav > li > a {
+   font-size: 14px;
+   color: #333333;
+}
+
+.page {
+   background-color: #ffffff;
+}
+
+.container {
+   width: 100%;
+   max-width: 1110px;
+   margin: 0 auto;
+}
+
+.block-header > div {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.block-header-wpap {
+   padding: 20px 0;
+}
+
+.block-header-left {
+   display: flex;
+   align-items: center;
+}
+
+.block-header-left > p {
+   margin-left: 20px;
+   font-family: Roboto;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 42px;
+   letter-spacing: 0.1em;
+   color: #66c05d;
+}
+
+.block-header-right {
+   display: flex;
+   align-items: center;
+}
+
+.block-header-right > p {
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 19px;
+   color: #000000;
+}
+
+.block-header-right > button {
+   margin-left: 40px;
+   min-width: 170px;
+   min-height: 40px;
+   background: #ffffff;
+   border: 2px solid #66c05d;
+   box-sizing: border-box;
+   border-radius: 40px;
+   font-family: Roboto;
+   font-size: 14px;
+}
+
+.below-header__line {
+   border: none;
+   height: 1px;
+   background-color: #e5e5e5;
+}
+
+.below-header > ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.below-header__wrap {
+   padding: 30px 0;
+}
+
+.below-header > ul > li {
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.below-header ul > li > a {
+   font-family: Roboto;
+   font-size: 16px;
+   line-height: 19px;
+   color: #000000;
+}
+
+.banner {
+   background-image: url(../img/background-one.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   padding-top: 130px;
+   padding-bottom: 130px;
+}
+
+.section-block > h1 {
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 48px;
+   line-height: 56px;
+   color: #ffffff;
+}
+
+.section-block > div {
+   margin-top: 50px;
+   font-family: Roboto;
+   font-size: 14px;
+   line-height: 20px;
+   color: #ffffff;
+}
+
+.section-block > button {
+   margin-top: 50px;
+   min-width: 170px;
+   min-height: 40px;
+   background: #66c05d;
+   border: 2px solid #ffffff;
+   box-sizing: border-box;
+   border-radius: 40px;
+   color: #ffffff;
+}
+
+.assorty {
+   margin-top: 69.8px;
+}
+
+.assorty-header {
+   display: flex;
+   align-items: center;
+}
+
+.assorty-header__title {
+   font-weight: bold;
+   font-size: 24px;
+   color: #000000;
+}
+
+.assorty-header__img {
+   margin-left: 556px;
+}
+
+.assorty-content {
+   display: flex;
+   align-items: center;
+   margin-top: 16.45px;
+}
+
+.assoty-content-one {
+   margin-right: 30px;
+   min-width: 255px;
+   min-height: 363px;
+   background: #ffffff;
+}
+
+.assoty-content-one__img > img {
+   margin: 25px 0 0 65px;
+}
+
+.assoty-content-one__text {
+   margin-top: 20px;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 14px;
+   line-height: 20px;
+   text-align: center;
+   color: #333333;
+}
+
+.assoty-content-one__price {
+   margin-top: 20px;
+   text-align: center;
+   font-family: Roboto;
+   font-weight: 500;
+   font-size: 21px;
+   text-align: center;
+   color: #000000;
+}
+
+.assoty-content-one__btn {
+   margin: 20px 0 0 62px;
+   min-width: 130px;
+   min-height: 35px;
+   background: #66c05d;
+   border-radius: 30px;
+   color: #ffffff;
+}
+
+.invitation-block {
+   margin-top: 100px;
+   display: flex;
+   align-items: center;
+}
+
+.invitation-block-left {
+   min-width: 540px;
+   min-height: 212px;
+   display: flex;
+   background: #66c05d;
+}
+
+.invitation-block-left__title {
+   margin: 35px 0 0 40px;
+   font-family: Roboto;
+   font-weight: bold;
+   font-size: 18px;
+   color: #ffffff;
+}
+
+.invitation-block-left__text {
+   margin: 25px 0 0 40px;
+   font-family: Roboto;
+   font-size: 14px;
+   line-height: 20px;
+   color: #ffffff;
+}
+
+.invitation-block-left__input {
+   margin: 25px 0 0 40px;
+}
+
+.invitation-block-left__input > input {
+   min-width: 225px;
+   min-height: 35px;
+   background: #ffffff;
+   border-radius: 30px;
+   padding: 9px 0px 9px 25px;
+}
+
+.invitation-block-left__img {
+   margin: 52px 0 0 65px;
+}
+
+.invitation-block-right {
+   margin-left: 30px;
+   min-width: 540px;
+   min-height: 212px;
+   /*display: flex;*/
+   background: #66c05d;
+}
+
+.invitation-block-right__title {
+   margin: 35px 0 0 40px;
+   font-family: Roboto;
+   font-weight: bold;
+   font-size: 18px;
+   color: #ffffff;
+}
+
+.invitation-block-right__text {
+   margin: 25px 0 0 40px;
+   font-family: Roboto;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 20px;
+   color: #ffffff;
+}
+
+.invitation-block-right__btn {
+   margin: 25px 0 0 40px;
+   min-width: 170px;
+   min-height: 35px;
+   background: #66c05d;
+   border: 2px solid #ffffff;
+   box-sizing: border-box;
+   border-radius: 30px;
+   color: #ffffff;
+}
+
+.info-block {
+   margin-top: 133px;
+}
+
+.info-block__wrap {
+   display: flex;
+   align-items: center;
+   padding: 37px 0 38px 0;
+}
+
+.info-block__item {
+   display: flex;
+   align-items: center;
+}
+
+.info-block__link {
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.info-block__address {
+   margin-left: 270px;
+   font-family: Roboto;
+   font-size: 14px;
+   line-height: 16px;
+   color: #000000;
+}
+
+.info-block__phone {
+   margin-left: 105px;
+   font-family: Roboto;
+   font-size: 16px;
+   line-height: 19px;
+   color: #000000;
+}
+
+.info-block__btn {
+   margin-left: 40px;
+   min-width: 170px;
+   min-height: 40px;
+   background: #ffffff;
+   border: 2px solid #66c05d;
+   box-sizing: border-box;
+   border-radius: 40px;
+}
+
+.politic-block__wrap {
+   display: flex;
+   padding: 25px 0;
+}
+
+.politic-block__text {
+   font-family: Roboto;
+   font-size: 12px;
+   color: #828282;
+}
+
+.politic-block__info {
+   margin-left: 340px;
+   font-family: Roboto;
+   font-size: 12px;
+   text-align: right;
+   color: #828282;
+}
+
+@media only screen and (max-height: 768px) and (max-width: 1024px) {
+   .nav {
+      padding: 12px 0 13px 0;
+   }
+
+   .nav > li > a {
+      font-size: 12px;
+   }
+
+   .block-header > div {
+      justify-content: space-around;
+   }
+
+   .block-header-wpap {
+      padding: 14px 0;
+   }
+
+   .block-header-left > p {
+      margin-left: 15px;
+      font-size: 30px;
+      line-height: 36px;
+   }
+
+   .block-header-right > p {
+      font-size: 14px;
+   }
+
+   .block-header-right > button {
+      margin-left: 35px;
+      min-width: 150px;
+      font-size: 12px;
+   }
+
+   .below-header__wrap {
+      padding: 24px 0;
+   }
+
+   .below-header > ul > li {
+      margin-left: 15px;
+      margin-right: 15px;
+   }
+
+   .below-header ul > li > a {
+      font-size: 14px;
+      line-height: 16px;
+   }
+
+   .banner {
+      padding-top: 100px;
+      padding-bottom: 100px;
+   }
+
+   .section-block {
+      margin-left: 122px;
+   }
+
+   .section-block > h1 {
+      font-size: 40px;
+   }
+
+   .section-block > div {
+      margin-top: 38px;
+      font-size: 12px;
+      line-height: 16px;
+   }
+
+   .section-block > button {
+      margin-top: 38px;
+      min-width: 150px;
+      min-height: 35px;
+      font-size: 12px;
+   }
+
+   .assorty {
+      margin-top: 58px;
+   }
+
+   .assorty-header__title {
+      font-size: 10px;
+      margin-left: 122px;
+   }
+
+   .assorty-header__img {
+      margin-left: 516px;
+   }
+
+   .assorty-content {
+      margin-top: 14.45px;
+   }
+
+   .assoty-content-one {
+      margin-right: 22px;
+      min-width: 235px;
+      min-height: 343px;
+      background: #ffffff;
+   }
+
+   .assoty-content-one__img > img {
+      margin-top: 16px;
+      text-align: center;
+   }
+
+   .assoty-content-one__text {
+      margin-top: 16px;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      color: #333333;
+   }
+
+   .assoty-content-one__price {
+      margin: 20px 0 0 10px;
+      text-align: center;
+      font-family: Roboto;
+      font-weight: 500;
+      font-size: 17px;
+      color: #000000;
+   }
+
+   .assoty-content-one__btn {
+      margin: 16px 0 0 56px;
+      min-width: 130px;
+      min-height: 35px;
+      background: #66c05d;
+      border-radius: 30px;
+      color: #ffffff;
+   }
+
+   .invitation-block {
+      margin-top: 80px;
+   }
+
+   .invitation-block-left {
+      min-width: 488px;
+      min-height: 182px;
+   }
+
+   .invitation-block-left__title {
+      margin: 25px 0 0 30px;
+      font-size: 14px;
+   }
+
+   .invitation-block-left__text {
+      margin: 15px 0 0 30px;
+      font-size: 12px;
+      line-height: 17px;
+   }
+
+   .invitation-block-left__input {
+      margin: 25px 0 0 30px;
+   }
+
+   .invitation-block-left__input > input {
+      min-width: 205px;
+      min-height: 15px;
+      font-size: 11px;
+   }
+
+   .invitation-block-left__img {
+      margin: 37px 0 0 65px;
+   }
+
+   .invitation-block-right {
+      min-width: 488px;
+      min-height: 182px;
+   }
+
+   .invitation-block-right__title {
+      margin: 25px 0 0 30px;
+      font-size: 14px;
+   }
+
+   .invitation-block-right__text {
+      margin: 15px 0 0 30px;
+      font-size: 12px;
+      line-height: 17px;
+   }
+
+   .invitation-block-right__btn {
+      margin: 25px 0 0 30px;
+      min-width: 160px;
+      min-height: 30px;
+      font-size: 11px;
+   }
+
+   .info-block {
+      margin-top: 100px;
+   }
+
+   .info-block__wrap {
+      padding: 24px 0 25px 0;
+   }
+
+   .info-block__item {
+      margin-left: 122px;
+   }
+
+   .info-block__link {
+      margin-left: 5px;
+      margin-right: 5px;
+   }
+
+   .info-block__address {
+      margin-left: 200px;
+      font-family: Roboto;
+      font-size: 6.5px;
+      line-height: 14px;
+      color: #000000;
+   }
+
+   .info-block__phone {
+      margin-left: 80px;
+      font-family: Roboto;
+      font-size: 11px;
+      line-height: 15px;
+      color: #000000;
+   }
+
+   .info-block__btn {
+      margin-left: 35px;
+      min-width: 145px;
+      min-height: 30px;
+      background: #ffffff;
+      font-size: 11px;
+   }
+}
